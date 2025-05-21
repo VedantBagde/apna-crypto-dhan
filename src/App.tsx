@@ -8,6 +8,7 @@ import { LanguageProvider } from "./context/LanguageContext";
 import { Web3Provider } from "./context/Web3Context";
 import Layout from "./components/Layout";
 import Index from "./pages/Index";
+import Explore from "./pages/Explore";
 import Dashboard from "./pages/Dashboard";
 import SendFunds from "./pages/SendFunds";
 import TransactionHistory from "./pages/TransactionHistory";
@@ -27,6 +28,7 @@ const App = () => (
             <Routes>
               <Route element={<Layout />}>
                 <Route path="/" element={<Index />} />
+                <Route path="/explore" element={<Explore />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/send" element={<SendFunds />} />
                 <Route path="/history" element={<TransactionHistory />} />

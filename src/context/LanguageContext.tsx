@@ -8,6 +8,19 @@ export const translations = {
     welcome: "Welcome to Apna Crypto",
     subtitle: "Your secure way to send and manage crypto",
     connectWallet: "Connect Your Wallet",
+    explore: "Explore App",
+    
+    // Explore Mode
+    exploreMode: "Explore Mode",
+    exploreModeDescription: "This is a demo mode. You can explore the app features without connecting your wallet.",
+    demoMode: "Demo",
+    demoAddress: "Demo Address",
+    backToWelcome: "Back",
+    demoTransactionSuccess: "Demo transaction submitted successfully",
+    thisWeek: "This Week",
+    thisMonth: "This Month",
+    sent: "Sent",
+    received: "Received",
     
     // Navigation
     dashboard: "Dashboard",
@@ -77,6 +90,19 @@ export const translations = {
     welcome: "अपना क्रिप्टो में आपका स्वागत है",
     subtitle: "क्रिप्टो भेजने और प्रबंधित करने का आपका सुरक्षित तरीका",
     connectWallet: "अपना वॉलेट कनेक्ट करें",
+    explore: "ऐप एक्सप्लोर करें",
+    
+    // Explore Mode
+    exploreMode: "एक्सप्लोर मोड",
+    exploreModeDescription: "यह एक डेमो मोड है। आप बिना वॉलेट कनेक्ट किए ऐप की सुविधाओं का पता लगा सकते हैं।",
+    demoMode: "डेमो",
+    demoAddress: "डेमो पता",
+    backToWelcome: "वापस",
+    demoTransactionSuccess: "डेमो लेनदेन सफलतापूर्वक सबमिट किया गया",
+    thisWeek: "इस सप्ताह",
+    thisMonth: "इस महीने",
+    sent: "भेजा गया",
+    received: "प्राप्त हुआ",
     
     // Navigation
     dashboard: "डैशबोर्ड",
